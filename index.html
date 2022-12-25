@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Operating System Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link href="/style.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table table-bordered me-5 h-25">
+                    <thead>
+                        <tr>
+                            <th scope="col">Process</th>
+                            <th scope="col">Burst Time (s)</th>
+                            <th scope="col">Arrival Time (s)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">P1</th>
+                            <td><input type="number" id="p1burst" class="form-control"></td>
+                            <td><input type="number" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P2</th>
+                            <td><input type="number" class="form-control"></td>
+                            <td><input type="number" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P3</th>
+                            <td><input type="number" class="form-control"></td>
+                            <td><input type="number" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P4</th>
+                            <td><input type="number" class="form-control"></td>
+                            <td><input type="number" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P5</th>
+                            <td><input type="number" class="form-control"></td>
+                            <td><input type="number" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P6</th>
+                            <td><input type="number" class="form-control"></td>
+                            <td><input type="number" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P7</th>
+                            <td><input type="number" class="form-control"></td>
+                            <td><input type="number" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P8</th>
+                            <td><input type="number" class="form-control"></td>
+                            <td><input type="number" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P9</th>
+                            <td><input type="number" class="form-control"></td>
+                            <td><input type="number" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P10</th>
+                            <td><input type="number" class="form-control"></td>
+                            <td><input type="number" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P11</th>
+                            <td><input type="number" class="form-control"></td>
+                            <td><input type="number" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P12</th>
+                            <td><input type="number" class="form-control"></td>
+                            <td><input type="number" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P13</th>
+                            <td><input type="number" class="form-control"></td>
+                            <td><input type="number" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P14</th>
+                            <td><input type="number" class="form-control"></td>
+                            <td><input type="number" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P15</th>
+                            <td><input type="number" class="form-control"></td>
+                            <td><input type="number" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P16</th>
+                            <td><input type="number" class="form-control"></td>
+                            <td><input type="number" class="form-control"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-1">
+                <div class="form-check mt-5">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
+                        value="Algorithm 1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Algorithm 1
+                    </label>
+                </div>
+                <div class="form-check mt-5">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                        value="Algorithm 2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        Algorithm 2
+                    </label>
+                </div>
+                <div class="form-check mt-5">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
+                        value="Algorithm 3">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Algorithm 3
+                    </label>
+                </div>
+                <div class="form-check mt-5">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
+                        value="Algorithm 4">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Algorithm 4
+                    </label>
+                </div>
+                <div class="form-check mt-5">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
+                        value="Algorithm 5">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Algorithm 5
+                    </label>
+                </div>
+                <div class="form-check mt-5">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
+                        value="Algorithm 6">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Algorithm 6
+                    </label>
+                </div>
+                <div class="form-check mt-5">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
+                        value="Algorithm 7">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Algorithm 7
+                    </label>
+                </div>
+                <div class="form-check mt-5">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
+                        value="Algorithm 8">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Algorithm 8
+                    </label>
+                </div>
+                <div class="form-check mt-5">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
+                        value="Algorithm 9">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Algorithm 9
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-2 mt-5">
+                <table class="table" id="queueTable">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Queues</th>
+                            <th scope="col">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Q1</th>
+                            <td><input type="number" class="queueValues"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Q2</th>
+                            <td><input type="number" class="queueValues"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary" id="save">Save Data</button>
+                <button class="btn btn-success" id="calculate">Calculate</button>
+                <button class="btn btn-warning" id="solarisCalculate">Solaris Save Data Button</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="text-danger">Table For Solaris Calculation</h4>
+                <table class="table table table-primary">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Priority</th>
+                            <th scope="col">Time Quantum</th>
+                            <th scope="col">Time Quantum Expired</th>
+                            <th scope="col">Return From Sleep</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="number" class="solaris-input" value="0"></td>
+                            <td><input type="number" class="solaris-input" value="200"></td>
+                            <td><input type="number" class="solaris-input" value="0"></td>
+                            <td><input type="number" class="solaris-input" value="50"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" class="solaris-input" value="5"></td>
+                            <td><input type="number" class="solaris-input" value="200"></td>
+                            <td><input type="number" class="solaris-input" value="0"></td>
+                            <td><input type="number" class="solaris-input" value="50"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" class="solaris-input" value="10"></td>
+                            <td><input type="number" class="solaris-input" value="160"></td>
+                            <td><input type="number" class="solaris-input" value="0"></td>
+                            <td><input type="number" class="solaris-input" value="51"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" class="solaris-input" value="15"></td>
+                            <td><input type="number" class="solaris-input" value="160"></td>
+                            <td><input type="number" class="solaris-input" value="5"></td>
+                            <td><input type="number" class="solaris-input" value="51"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" class="solaris-input" value="20"></td>
+                            <td><input type="number" class="solaris-input" value="120"></td>
+                            <td><input type="number" class="solaris-input" value="10"></td>
+                            <td><input type="number" class="solaris-input" value="52"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" class="solaris-input" value="25"></td>
+                            <td><input type="number" class="solaris-input" value="120"></td>
+                            <td><input type="number" class="solaris-input" value="15"></td>
+                            <td><input type="number" class="solaris-input" value="52"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" class="solaris-input" value="30"></td>
+                            <td><input type="number" class="solaris-input" value="80"></td>
+                            <td><input type="number" class="solaris-input" value="20"></td>
+                            <td><input type="number" class="solaris-input" value="53"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" class="solaris-input" value="35"></td>
+                            <td><input type="number" class="solaris-input" value="80"></td>
+                            <td><input type="number" class="solaris-input" value="25"></td>
+                            <td><input type="number" class="solaris-input" value="54"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" class="solaris-input" value="40"></td>
+                            <td><input type="number" class="solaris-input" value="40"></td>
+                            <td><input type="number" class="solaris-input" value="30"></td>
+                            <td><input type="number" class="solaris-input" value="55"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" class="solaris-input" value="45"></td>
+                            <td><input type="number" class="solaris-input" value="40"></td>
+                            <td><input type="number" class="solaris-input" value="35"></td>
+                            <td><input type="number" class="solaris-input" value="56"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" class="solaris-input" value="50"></td>
+                            <td><input type="number" class="solaris-input" value="40"></td>
+                            <td><input type="number" class="solaris-input" value="40"></td>
+                            <td><input type="number" class="solaris-input" value="58"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" class="solaris-input" value="55"></td>
+                            <td><input type="number" class="solaris-input" value="40"></td>
+                            <td><input type="number" class="solaris-input" value="45"></td>
+                            <td><input type="number" class="solaris-input" value="58"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" class="solaris-input" value="59"></td>
+                            <td><input type="number" class="solaris-input" value="20"></td>
+                            <td><input type="number" class="solaris-input" value="49"></td>
+                            <td><input type="number" class="solaris-input" value="59"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="/site.js"></script>
+</body>
+
+</html>
